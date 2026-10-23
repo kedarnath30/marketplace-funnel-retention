@@ -1,0 +1,304 @@
+{
+  "headline": {
+    "orders_placed": 99092.0,
+    "purchase_orders": 97905.0,
+    "unique_buyers": 94703.0,
+    "repeat_buyer_pct": 3.03,
+    "total_gmv": 15688396.64,
+    "aov": 160.24,
+    "orders_per_buyer": 1.0338,
+    "gmv_share_from_repeat_buyers": 5.65,
+    "late_delivery_pct": 6.79,
+    "avg_review_score": 4.117
+  },
+  "repeat": {
+    "buyers": 94703,
+    "repeat_buyers_any": 2874,
+    "repeat_pct_any": 3.03,
+    "repeat_buyers_distinct_day": 2053,
+    "repeat_pct_distinct_day": 2.17
+  },
+  "north_star": {
+    "mab_jan2017": 753,
+    "mab_aug2018": 6380,
+    "mab_peak": 7313,
+    "mab_peak_month": "2017-11",
+    "returning_share_aug2018_pct": 2.68,
+    "returning_share_2018_avg_pct": 2.37
+  },
+  "funnel": {
+    "placed": 99092,
+    "delivered_pct": 97.08,
+    "on_time_pct": 90.49,
+    "on_time_positive_pct": 74.41,
+    "biggest_step_dropoff": "6. On time + review >= 4",
+    "biggest_step_dropoff_pct": 17.77,
+    "northeast_late_pct": 12.76,
+    "southeast_late_pct": 6.13,
+    "northeast_on_time_positive_pct": 68.05,
+    "southeast_on_time_positive_pct": 75.47,
+    "northeast_avg_delivery_days": 19.9,
+    "southeast_avg_delivery_days": 10.7
+  },
+  "category_repurchase_top": [
+    [
+      "furniture_decor",
+      4.64
+    ],
+    [
+      "bed_bath_table",
+      4.54
+    ],
+    [
+      "sports_leisure",
+      3.94
+    ]
+  ],
+  "category_repurchase_bottom": [
+    [
+      "toys",
+      2.34
+    ],
+    [
+      "watches_gifts",
+      2.1
+    ],
+    [
+      "auto",
+      2.08
+    ]
+  ],
+  "cohorts": {
+    "m1_retention_pct_weighted": 0.482,
+    "m3_retention_pct_weighted": 0.259,
+    "m6_retention_pct_weighted": 0.229,
+    "m12_retention_pct_weighted": 0.178
+  },
+  "ltv": {
+    "cohorts_with_12m": 8,
+    "avg_m0_gmv_per_buyer": 164.71,
+    "avg_m12_gmv_per_buyer": 169.58,
+    "avg_uplift_m0_to_m12_pct": 2.98
+  },
+  "actives": {
+    "avg_dau_2018": 218.7,
+    "avg_wau_2018": 1537.4,
+    "avg_mau28_2018": 6105.1,
+    "avg_dau_mau_2018_pct": 3.63,
+    "avg_wau_mau_2018_pct": 25.32,
+    "peak_dau": 1151,
+    "peak_dau_day": "2017-11-24"
+  },
+  "review_dip": {
+    "baseline_month": "2018-01",
+    "dip_month": "2018-03",
+    "avg_review_baseline": 4.109,
+    "avg_review_dip": 3.813,
+    "late_pct_baseline": 5.65,
+    "late_pct_dip": 18.65,
+    "on_time_review_baseline": 4.234,
+    "on_time_review_dip": 4.212,
+    "delta_total": -0.296,
+    "delta_mix_from_more_late_orders": -0.284,
+    "delta_rate_within_groups": -0.013,
+    "mix_share_of_dip_pct": 95.8,
+    "avg_delivery_days_baseline": 13.96,
+    "avg_delivery_days_dip": 16.16,
+    "avg_promised_days_baseline": 26.93,
+    "avg_promised_days_dip": 22.66
+  },
+  "delay_vs_review": [
+    {
+      "delay_bucket": "a. >=14d early",
+      "orders": 41614,
+      "avg_review": 4.326,
+      "one_star_pct": 6.53,
+      "positive_pct": 83.73
+    },
+    {
+      "delay_bucket": "b. 7-13d early",
+      "orders": 33873,
+      "avg_review": 4.299,
+      "one_star_pct": 6.38,
+      "positive_pct": 83.1
+    },
+    {
+      "delay_bucket": "c. 0-6d early",
+      "orders": 13695,
+      "avg_review": 4.166,
+      "one_star_pct": 7.33,
+      "positive_pct": 78.44
+    },
+    {
+      "delay_bucket": "d. 1-3d late",
+      "orders": 1851,
+      "avg_review": 3.291,
+      "one_star_pct": 25.12,
+      "positive_pct": 53.16
+    },
+    {
+      "delay_bucket": "e. 4-7d late",
+      "orders": 1748,
+      "avg_review": 2.103,
+      "one_star_pct": 58.58,
+      "positive_pct": 22.48
+    },
+    {
+      "delay_bucket": "f. 8-14d late",
+      "orders": 1446,
+      "avg_review": 1.671,
+      "one_star_pct": 70.61,
+      "positive_pct": 11.0
+    },
+    {
+      "delay_bucket": "g. >14d late",
+      "orders": 1333,
+      "avg_review": 1.725,
+      "one_star_pct": 68.94,
+      "positive_pct": 12.53
+    }
+  ],
+  "repeat_drivers": {
+    "on_time_first_order_repeat_pct": 4.08,
+    "late_first_order_repeat_pct": 3.16,
+    "relative_gap_pct": -22.5,
+    "z": 2.74,
+    "p_value": 0.0061,
+    "n_on_time": 51562,
+    "n_late": 3671,
+    "review5_repeat_pct": 4.26,
+    "review1_repeat_pct": 3.84
+  },
+  "sellers": {
+    "seller_m1_retention_pct": 58.83,
+    "seller_m6_retention_pct": 45.28,
+    "seller_m12_retention_pct": 37.05,
+    "buyer_m1_retention_pct": 0.482,
+    "buyer_m6_retention_pct": 0.229,
+    "buyer_m12_retention_pct": 0.178,
+    "health_cohort_sellers": 966,
+    "health_cohort_retained_pct": 88.82,
+    "health_table": [
+      {
+        "driver": "all",
+        "bucket": "all",
+        "sellers": 966,
+        "retained_pct": 88.82
+      },
+      {
+        "driver": "early_avg_review",
+        "bucket": "1. <3.5",
+        "sellers": 112,
+        "retained_pct": 79.46
+      },
+      {
+        "driver": "early_avg_review",
+        "bucket": "2. 3.5-4.0",
+        "sellers": 194,
+        "retained_pct": 91.24
+      },
+      {
+        "driver": "early_avg_review",
+        "bucket": "3. 4.0-4.5",
+        "sellers": 429,
+        "retained_pct": 92.31
+      },
+      {
+        "driver": "early_avg_review",
+        "bucket": "4. >=4.5",
+        "sellers": 231,
+        "retained_pct": 84.85
+      },
+      {
+        "driver": "early_late_rate",
+        "bucket": "0. no deliveries",
+        "sellers": 2,
+        "retained_pct": 50.0
+      },
+      {
+        "driver": "early_late_rate",
+        "bucket": "1. 0%",
+        "sellers": 514,
+        "retained_pct": 85.6
+      },
+      {
+        "driver": "early_late_rate",
+        "bucket": "2. 0-10%",
+        "sellers": 215,
+        "retained_pct": 96.74
+      },
+      {
+        "driver": "early_late_rate",
+        "bucket": "3. >10%",
+        "sellers": 235,
+        "retained_pct": 88.94
+      },
+      {
+        "driver": "early_volume",
+        "bucket": "1. 5-9",
+        "sellers": 450,
+        "retained_pct": 81.33
+      },
+      {
+        "driver": "early_volume",
+        "bucket": "2. 10-24",
+        "sellers": 318,
+        "retained_pct": 93.71
+      },
+      {
+        "driver": "early_volume",
+        "bucket": "3. 25-49",
+        "sellers": 127,
+        "retained_pct": 98.43
+      },
+      {
+        "driver": "early_volume",
+        "bucket": "4. 50+",
+        "sellers": 71,
+        "retained_pct": 97.18
+      }
+    ],
+    "active_sellers_jan2017": 226,
+    "active_sellers_aug2018": 1266,
+    "buyers_per_seller_aug2018": 5.04,
+    "top10pct_seller_gmv_share_avg": 55.51
+  },
+  "time_to_second": [
+    {
+      "bucket": "a. same day",
+      "buyers": 867,
+      "pct": 30.17,
+      "median_days_in_bucket": 0.0
+    },
+    {
+      "bucket": "b. 1-7d",
+      "buyers": 207,
+      "pct": 7.2,
+      "median_days_in_bucket": 3.0
+    },
+    {
+      "bucket": "c. 8-30d",
+      "buyers": 390,
+      "pct": 13.57,
+      "median_days_in_bucket": 17.0
+    },
+    {
+      "bucket": "d. 31-90d",
+      "buyers": 503,
+      "pct": 17.5,
+      "median_days_in_bucket": 54.0
+    },
+    {
+      "bucket": "e. 91-180d",
+      "buyers": 423,
+      "pct": 14.72,
+      "median_days_in_bucket": 129.0
+    },
+    {
+      "bucket": "f. 180d+",
+      "buyers": 484,
+      "pct": 16.84,
+      "median_days_in_bucket": 266.5
+    }
+  ]
+}
