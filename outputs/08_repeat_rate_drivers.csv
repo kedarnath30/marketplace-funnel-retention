@@ -1,0 +1,24 @@
+driver,bucket,first_orders,repeat_pct
+delivery_vs_estimate,0. not delivered,1105,4.43
+delivery_vs_estimate,1. >=7d early,45454,4.15
+delivery_vs_estimate,2. 0-6d early,6108,3.55
+delivery_vs_estimate,3. 1-7d late,1956,3.17
+delivery_vs_estimate,4. >7d late,1715,3.15
+first_order_value,1. <50,9712,4.41
+first_order_value,2. 50-100,17345,4.13
+first_order_value,3. 100-200,17988,3.9
+first_order_value,4. 200+,11293,3.75
+late_flag,late,3671,3.16
+late_flag,not delivered,1105,4.43
+late_flag,on time,51562,4.08
+region,Center-West,3339,3.95
+region,North,1150,3.83
+region,Northeast,5590,3.13
+region,South,8306,3.8
+region,Southeast,37953,4.22
+review_score,1,6172,3.84
+review_score,2,1837,3.59
+review_score,3,4863,3.89
+review_score,4,11092,3.62
+review_score,5,31915,4.26
+review_score,no review,459,3.92
