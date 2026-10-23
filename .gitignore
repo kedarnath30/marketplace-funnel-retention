@@ -1,0 +1,8 @@
+# raw data is downloaded by src/download_data.py (files are 2-18 MB each)
+data/raw/
+*.duckdb
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.DS_Store
