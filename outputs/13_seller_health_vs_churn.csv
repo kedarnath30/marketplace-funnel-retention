@@ -1,0 +1,14 @@
+driver,bucket,sellers,retained_pct
+all,all,966,88.82
+early_avg_review,1. <3.5,112,79.46
+early_avg_review,2. 3.5-4.0,194,91.24
+early_avg_review,3. 4.0-4.5,429,92.31
+early_avg_review,4. >=4.5,231,84.85
+early_late_rate,0. no deliveries,2,50.0
+early_late_rate,1. 0%,514,85.6
+early_late_rate,2. 0-10%,215,96.74
+early_late_rate,3. >10%,235,88.94
+early_volume,1. 5-9,450,81.33
+early_volume,2. 10-24,318,93.71
+early_volume,3. 25-49,127,98.43
+early_volume,4. 50+,71,97.18
